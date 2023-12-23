@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import BottomNav from '../components/BottomNav'
 import TinderCard from '../components/CardComponent'

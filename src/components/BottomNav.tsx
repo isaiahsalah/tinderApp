@@ -22,7 +22,7 @@ const BottomNav = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [value, setValue] = React.useState('recents');
 
-    const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+    const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
         setValue(newValue);
     };
 
