@@ -8,7 +8,7 @@ const BottomNavBox = styled.div`
 //position: relative;
 height: 100%;
 width: 100%;
-max-width: 500px;
+max-width: 700px;
 background-color: ${Colors.red};
 display: grid;
 justify-content: center;

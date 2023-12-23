@@ -18,30 +18,29 @@ const CardBox = styled.div`
 //position: relative;
 height: 100%;
 width: 100%;
-max-width: 500px;
-background-color: ${Colors.green};
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: transparent;
+color: ${Colors.white};
 
 `
 
 
-export default function TinderCard() {
+export default function CardComponent() {
 
 
 
     return (
         <CardBox>
             <Card style={{
-                maxWidth: 500,
                 width: '100%',
                 height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
-                backgroundColor: Colors.white,
                 justifyContent: 'center',
-                alignItems: 'center'
+                alignItems: 'center',
+                backgroundColor: 'transparent'
 
 
             }}>
@@ -73,9 +72,8 @@ export default function TinderCard() {
 
                     />
                 </div>
-
                 <CardContent>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" >
                         Este es un texto de ejemplo para bla bla bla bla bla...
                     </Typography>
                 </CardContent>

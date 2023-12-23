@@ -8,7 +8,6 @@ const NavCompBox = styled.div`
 max-height: 50px;
 height: 100%;
 width: 100%;
-max-width: 500px;
 background-color: ${Colors.green};
 display: flex;
 justify-content: center;
